@@ -1,0 +1,4 @@
+import random
+contrasena = ["+","-","/","*","!","&","$","#","?","=","@"]
+contra = input("Introduzca una contraseña de 5 caracteres")
+final = print("Su contraseña es:", random.choice(contrasena),"-",contra)
